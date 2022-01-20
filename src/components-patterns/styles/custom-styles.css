@@ -26,3 +26,13 @@
      right: 10px;
      top: 0px;
  }
+ .disable {
+     border-color: gray !important;
+     border-left: 1px solid white !important;
+     color: gray !important;
+ }
+ .disable-min {
+    border-color: gray !important;
+    border-right: 1px solid white !important;
+    color: gray !important;
+}
