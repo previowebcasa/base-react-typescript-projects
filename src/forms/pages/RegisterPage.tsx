@@ -1,13 +1,8 @@
 import '../styles/styles.css'
-import { useState,ChangeEvent,FormEvent } from 'react';
+import {FormEvent } from 'react';
 import { useForm } from '../hooks/useForm';
 
-interface Form {
-    name:string,
-    email:string,
-    password1:string,
-    password2:string
-}
+
 export const RegisterPage = () => {
     const {FormData, onChange,resetForm,isValidEmail }= useForm({
         name:'',    

@@ -1,6 +1,6 @@
 import {  ErrorMessage, useField } from 'formik';
 interface Props {
-    label:string;
+    label?:string;
     name:string;
     type:string;
     placeholder?:string;

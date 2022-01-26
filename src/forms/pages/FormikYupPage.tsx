@@ -9,7 +9,7 @@ export const FormikYupPage = () => {
 
 
 
- const {handleSubmit,handleReset,errors,touched,getFieldProps}=useFormik({
+ const {handleSubmit,errors,touched,getFieldProps}=useFormik({
      initialValues:{
          firstName:'',
          lastName:'',

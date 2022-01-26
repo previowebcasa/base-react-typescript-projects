@@ -41,7 +41,7 @@ export const FormikBasicPage = () => {
  }
 
 
- const {handleChange,values,handleSubmit,handleReset,errors,touched,handleBlur}=useFormik({
+ const {handleChange,values,handleSubmit,errors,touched,handleBlur}=useFormik({
      initialValues:{
          firstName:'',
          lastName:'',
